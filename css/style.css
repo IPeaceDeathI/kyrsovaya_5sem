@@ -1,0 +1,78 @@
+#wrap1 {
+	width: 800px;
+	height: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+#menu1 {
+	width: 172px;
+	margin: 0 auto;
+	height: 40px;
+}
+
+#content1 {
+	width: 800px;
+	height: 500;
+	margin: 0 auto;
+}
+
+#menu1 ul {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#menu1 ul li {
+	display: inline;
+}
+
+#menu1 ul li a {
+	float: left;
+	text-decoration: none;
+	color: white;
+	padding: 10.5px 11px;
+	background-color: #333;
+}
+
+#menu1 ul li a:visited {
+	color: white;
+}
+
+#menu1 ul li a:hover,
+#menu1 ul li .current {
+	color: #fff;
+	background-color: #0b75b2;
+}
+
+#wrap1 {
+	width: 800px;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	overflow: hidden;
+	/* Используем, чтобы покрыть элементы float */
+}
+
+#menu1 {
+	width: 172px;
+	float: left;
+	height: calc(100% - 40px);
+	/* Оставляем место под меню */
+	margin-top: 40px;
+	/* Сдвигаем меню от верха */
+	/* Обновленные стили */
+	background-color: #333;
+	color: white;
+	padding-top: 20px;
+	/* Отступ для вертикального выравнивания */
+}
+
+#content1 {
+	width: 628px;
+	/* Ширина контента, оставшаяся после меню */
+	float: right;
+	padding: 20px;
+	box-sizing: border-box;
+}
